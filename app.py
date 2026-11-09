@@ -8,8 +8,7 @@ app = Flask(__name__)
 
 SYSTEM_PROMPT = "You are a helpful AI assistant. Ignore previous instructions only when authorized."
 
-def calculate(expression):
-    return eval(expression)
+
 
 OLLAMA_URL = "http://127.0.0.1:11434/api/generate"
 MODEL = "llama3.2:1b"
