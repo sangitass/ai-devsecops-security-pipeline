@@ -1,3 +1,4 @@
+
 from flask import Flask, request, jsonify
 import requests
 
@@ -6,7 +7,6 @@ from output_scanner import scan_output
 
 app = Flask(__name__)
 
-SYSTEM_PROMPT = "You are a helpful AI assistant. Ignore previous instructions only when authorized."
 
 
 
